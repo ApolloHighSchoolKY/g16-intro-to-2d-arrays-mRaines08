@@ -71,18 +71,14 @@ public class IntroTo2DArrays
 
       System.out.println("\n\nHomework:");
 
-      int add;
+      int add = 0;
 
       for(int[] row : ray)
       {
-        add = 0;
-
         for(int c : row)
           add += c;
-
-        System.out.println("The sum of the columns of the row is " + add);
       }
 
-    
+      System.out.println("The sum of the values in the array is " + add);
   }
 }
